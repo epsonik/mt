@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<link rel="Shortcut icon" href="../ikony/ico.ico">
+		<link type="text/css" rel="stylesheet" href="../style/stylesheet.css">
+		<link type="text/css" rel="stylesheet" href="../style/menu.css">
+		<link type="text/css" rel="stylesheet" href="../style/cv.css">
+		<meta http-equiv="Content-Language" content="pl">
+     	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="CV Mateusz Bartosiwicz">
+		<meta name="keywords" content="CV, Mateusz Bartosiewicz">
+		<meta name="author" content="mateusz" >
+		<title>
+			CV-Mateusz Bartosiewicz
+		</title>
+	</head>
+	<body>
+		  <div id="header">
+		  <p>Mateusz Bartosiewicz -Strona domowa</p>
+			<ol >
+			  <li><a href="../index.html">Home</a>
+  			  </li>
+    <li><a href="#">Ćw 1</a>
+      <ul>
+        <li><a href="../cv/cv-html-div.html">Html-div</a></li>
+        <li><a href="../cv/cv-html-tab.html">Html-tab</a></li>
+        <li><a href="../cv/cv-xhtml-div.xhtml">Xhtml-div</a></li>
+        <li><a href="../cv/cv-xhtml-tab.xhtml">Xhtml-tab</a></li>
+        <li><a href="../cv-html-frame.html">frame</a></li>
+        <li><a href="../cv-html-iframe.html">iframe</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">Ćw. 2</a>   
+     <ul>
+        <li><a href="../cw2/tab.html">Tabela</a></li>
+        <li><a href="../cw2/form.html">Form</a></li>
+    </ul>
+    </li>
+
+    <li><a href="#">Ćw. 3</a></li>
+
+    <li><a href="#">Ćw. 4</a>
+    </li>
+  </ol>
+			 
+		</div>
+
+		<div class="right">	
+
+<form id="formul" action="skrypt.php" method="post" 
+    onsubmit="return permissionToPD()"><div>
+Name: <input type="text" name="name" onblur="validName()"><br>
+Surname: <input type="text" name="surename" onblur="validSurename()"><br>
+Birth Date<input type="text" name="birth_date" onClick="showKal(this)" onblur="countAge()"><br>
+Personal ID:<input type="text" name="personalID" onblur="validPersonalID()"><br>
+Age:<input type="text" name="age" disabled><br>
+<fieldset><legend>Sex</legend><br>
+<select name="sex" size="1">
+<option>Male</option>
+<option>Female</option>
+</select>
+</fieldset>
+
+<fieldset><legend>Kind of studies</legend><br>
+<input type="radio" name="answer" value="IT_Engineering" checked>IT-Engineering<br>
+<input type="radio" name="answer" value="Electrotechnics">Electrotechnics<br>
+<input type="radio" name="answer" value="Automatics_and_Robotics">Automatics_and_Robotics
+</fieldset>
+
+<input type="file" id="myFile" onblur="validFile()"><br>
+<textarea name="tArea" rows="5" cols="50" onkeypress="countChars()" onblur = "countChars2()">Fragment tekstu</textarea><br>
+Znaków : <input name="counter" value="" type="text" disabled><br>  
+<input type="checkbox" name="permission">I permit to process my personal data<br>
+<input type="submit" value="Wyślij">
+</div></form>
+<script type="text/javascript" src="../scripts/script.js"></script>
+
+</div>
+
+		<div id="footer">
+				<p>
+					Strona została stworzona przez Mateusz Bartosiewicz
+			
+				
+				<a href="">Pokaż źródło strony.</a>
+				
+				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
+					<img src="../ikony/valid-css1.png" alt="Sorry.But your browser doesn't suppor images.">
+				</a>
+				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
+					<img src="../ikony/valid-html401.png" alt="Sorry.But your browser doesn't suppor images.">
+				</a>
+				</p>
+		</div>
+</body>

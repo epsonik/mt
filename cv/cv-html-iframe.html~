@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html>
+	<head>
+		<link rel="Shortcut icon" href="ikony/ico.ico">
+		<link type="text/css" rel="stylesheet" href="style/stylesheet.css">
+		<link type="text/css" rel="stylesheet" href="style/menu.css">
+		<link type="text/css" rel="stylesheet" href="style/cv.css">
+		<meta http-equiv="Content-Language" content="pl">
+     	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="CV Mateusz Bartosiwicz">
+		<meta name="keywords" content="CV, Mateusz Bartosiewicz">
+		<meta name="author" content="mateusz" >
+		<title>
+			CV-Mateusz Bartosiewicz
+		</title>
+	</head>
+	<body>
+		  <div id="header">
+		  <p>Mateusz Bartosiewicz -frame</p>
+			<ol >
+			 <li><a href="../index.html">Home</a>
+  			  </li>
+    <li><a href="#">Ćw 1</a>
+      <ul>
+        <li><a href="cv-html-div.html">Html-div</a></li>
+        <li><a href="cv-html-tab.html">Html-tab</a></li>
+        <li><a href="cv-xhtml-div.xhtml">Xhtml-div</a></li>
+        <li><a href="cv-xhtml-tab.xhtml">Xhtml-tab</a></li>
+        <li><a href="cv-frame.html">Html-frame</a><li>
+      </ul>
+    </li>
+
+    <li><a href="#">Ćw. 2</a>   
+    </li>
+
+    <li><a href="#">Ćw. 3</a></li>
+
+    <li><a href="#">Ćw. 4</a>
+    </li>
+  </ol>
+			 
+		</div>
+
+<div class="right">
+<iframe src="http://www.wp.pl/" hspace="50" vspace="50" width="99%" height="700px"></iframe>
+</div>		
+		<div id="footer">
+				<p>
+					Strona została stworzona przez Mateusz Bartosiewicz
+			
+				
+				<a href="" alt="Link Error">Pokaż źródło strony.</a>
+				
+				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
+					<img src="ikony/valid-css1.png" alt="Sorry.But your browser doesn't suppor images.">
+				</a>
+				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
+					<img src="ikony/valid-html401.png" alt="Sorry.But your browser doesn't suppor images.">
+				</a>
+				</p>
+		</div>
+</body>

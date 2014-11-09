@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<link rel="Shortcut icon" href="cv/ikony/ico.ico">
+		<link type="text/css" rel="stylesheet" href="style/stylesheet.css">
+		<link type="text/css" rel="stylesheet" href="style/menu.css">
+		<link type="text/css" rel="stylesheet" href="style/cv.css">
+		<meta http-equiv="Content-Language" content="pl">
+     	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="CV Mateusz Bartosiwicz">
+		<meta name="keywords" content="CV, Mateusz Bartosiewicz">
+		<meta name="author" content="mateusz" >
+		<title>
+			CV-Mateusz Bartosiewicz
+		</title>
+	</head>
+	<body>
+<form id="form" action="skrypt.php" method="post" 
+    onsubmit="return valid_name_surename()"><div>
+
+Name: <input type="text" name="name"><br>
+Surname: <input type="text" name="surename"><br>
+Date of birth:<input type="text" name="birth_date"><br>
+Personal ID:<input type="text" name="personalID"><br>
+Age:<input type="text" name="age">
+<fieldset><legend>Sex</legend></br>
+<select name="sex" size="1">
+<option>Male</option>
+<option>Female</option>
+</select>
+</fieldset>
+
+<fieldset><legend>Kind of studies</legend></br>
+<input type="radio" name="answer" value="IT_Engineering" checked>IT-Engineering<br>
+<input type="radio" name="answer" value="Electrotechnics">Electrotechnics<br>
+<input type="radio" name="answer" value="Automatics_and_Robotics">Automatics_and_Robotics
+</fieldset>
+
+<br><input type="file" id="myFile"></br>
+
+<textarea name="tArea" rows="5" cols="50">Fragment tekstu</textarea></br>
+
+<input type="checkbox" name="permission" value=true checked>I permit to process my personal data<br>
+
+<input type="submit" value="Wyślij">
+</div></form>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
