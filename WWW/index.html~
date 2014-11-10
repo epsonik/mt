@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<link rel="Shortcut icon" href="cv/ikony/ico.ico">
+		<link type="text/css" rel="stylesheet" href="style/stylesheet.css">
+		<link type="text/css" rel="stylesheet" href="style/menu.css">
+		<link type="text/css" rel="stylesheet" href="style/cv.css">
+		<meta http-equiv="Content-Language" content="pl">
+     	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="CV Mateusz Bartosiwicz">
+		<meta name="keywords" content="CV, Mateusz Bartosiewicz">
+		<meta name="author" content="mateusz" >
+		<title>
+			CV-Mateusz Bartosiewicz
+		</title>
+	</head>
+	<body>
+		  <div id="header">
+		  <p>Mateusz Bartosiewicz -Strona domowa</p>
+			<ol >
+			  <li><a href="index.html">Home</a>
+  			  </li>
+    <li><a href="#">Ćw 1</a>
+      <ul>
+        <li><a href="cv/cv-html-div.html">Html-div</a></li>
+        <li><a href="cv/cv-html-tab.html">Html-tab</a></li>
+        <li><a href="cv/cv-xhtml-div.xhtml">Xhtml-div</a></li>
+        <li><a href="cv/cv-xhtml-tab.xhtml">Xhtml-tab</a></li>
+        <li><a href="cv-html-frame.html">frame</a></li>
+            <li><a href="cv-html-iframe.html">iframe</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">Ćw. 2</a>   
+    </li>
+
+    <li><a href="#">Ćw. 3</a></li>
+
+    <li><a href="#">Ćw. 4</a>
+    </li>
+  </ol>
+			 
+		</div>
+
+		<div class="right">	
+		<h4>Witam na mojej stronie domowej!</h4>		
+		<p>Zapraszam do odwiedzenie wszystkich stron</p>
+		<p>Klikając w home, przenosimy się na stronę domową</p>
+		<p>Strona frame w związku ze swoją specyfiką, nie pozwala na użycie przycisku</p>
+		<p> home</p>
+		<FORM onSubmit="return wyslijDane(this)" NAME="formularz"
+         ACTION="javascript:alert('wyslano formularz')">
+<INPUT NAME="emailAdr" TYPE="text">
+<INPUT TYPE="submit" VALUE="Wyślij">
+</FORM>
+		<p></p>
+		<h4>Przykładowa tabela zagnieżdzona</h4>
+		
+<table border="10" cellpadding="10" cellspacing="10">
+<tr>
+  <td>
+    <table border="5">
+    <tr>
+      <td>komórka1A</td>  <td>komórka1B</td>
+    </tr>
+    <tr>
+      <td>komórka1C</td>  <td>komórka1D</td>
+    </tr>
+    </table>
+  </td>
+  <td>komórka2</td>
+</tr>
+<tr>
+  <td>komórka3</td>  <td>komórka4</td>
+</tr>
+</table>	
+		
+		
+			
+		</div>
+		
+		<div id="footer">
+				<p>
+					Strona została stworzona przez Mateusz Bartosiewicz
+			
+				
+				<a href="">Pokaż źródło strony.</a>
+				
+				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
+					<img src="ikony/valid-css1.png" alt="Sorry.But your browser doesn't suppor images.">
+				</a>
+				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
+					<img src="ikony/valid-html401.png" alt="Sorry.But your browser doesn't suppor images.">
+				</a>
+				</p>
+		</div>
+</body>
