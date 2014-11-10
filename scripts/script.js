@@ -27,7 +27,20 @@ function permissionToPD(){
 		return true;
 	}
 }
+function permissionToSend(){
 
+	var a=permissionToPD();
+	var b=validName();
+	var c=validSurename();
+	var d=validPersonalID();
+	var k=a&b&c&d;
+	if (!k){
+		alert("Error! Name, Surename, Personal ID and permission to process personal data are require to send form!");
+		return false;
+	}
+	else
+		return true;
+}
 function validDateOfBirth(dateOfBirth){
 	var pattern = /^((?:19|20)\d\d)[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/;
 	if(!pattern.test(f().birth_date.value)){

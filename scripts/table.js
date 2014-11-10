@@ -41,7 +41,7 @@ function createTextBox(cell){
 function myFunction() {
 		var k =getText();
 
-		if(k<29){
+		if(k<26){
 			delTable();
 			for(var i=k;i>0;i--){
 				var row = table().insertRow(0);
@@ -59,13 +59,13 @@ function myFunction() {
 		addCells();
 		}
 		else{
-			alert("Error! Page allows just for 28 rows.");
+			alert("Error! Page allows just for 25 rows.");
 		}
 }
 
 function createButton(cell){
 	var button = document.createElement("BUTTON");
-	var t =document.createTextNode("Add");
+	var t =document.createTextNode("Dodaj");
 	button.appendChild(t);
 	button.setAttribute("id","but");
 	button.setAttribute("onClick","addCells()")
@@ -88,7 +88,7 @@ function ad(){
 				createTextBox(cell3);
 			else
 				createButton(cell3);
-	}		
+	}
 }
 function addCells(){
 		var cellCount=table().rows[1].cells.length;	

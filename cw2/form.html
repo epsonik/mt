@@ -10,14 +10,14 @@
 		<meta name="description" content="CV Mateusz Bartosiwicz">
 		<meta name="keywords" content="CV, Mateusz Bartosiewicz">
 		<meta name="author" content="mateusz" >
-		<script language="javascript" src="../scripts/position.js"></script>
+		<script type="text/javascript" src="../scripts/position.js"></script>
 		<title>
-			CV-Mateusz Bartosiewicz
+			Formularz-Mateusz Bartosiewicz
 		</title>
 	</head>
 	<body onload="position()">
 		  <div id="header">
-		  <p>Mateusz Bartosiewicz -Strona domowa</p>
+		  <p>Mateusz Bartosiewicz -Formularz</p>
 			<ol >
 			  <li><a href="../index.html">Home</a>
   			  </li>
@@ -50,7 +50,7 @@
 		<div class="right">	
 
 <form id="formul" action="skrypt.php" method="post" 
-    onsubmit="return permissionToPD()"><div>
+    onsubmit="return permissionToSend()"><div>
 Name: <input type="text" name="name" onblur="validName()"><br>
 Surname: <input type="text" name="surename" onblur="validSurename()"><br>
 Birth Date<input type="text" name="birth_date" onClick="showKal(this)" onblur="countAge()"><br>
@@ -85,15 +85,12 @@ Znaków : <input name="counter" value="" type="text" disabled><br>
 		<div id="footer">
 				<p>
 					Strona została stworzona przez Mateusz Bartosiewicz
-			
 				
-				<a href="">Pokaż źródło strony.</a>
+				<a class="zrodlo" onclick='window.location="view-source:" + window.location.href'>Pokaż źródło strony.</a>
+				<img src="../ikony/valid-css1.png" alt="Valid CSS1.">
 				
-				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
-					<img src="../ikony/valid-css1.png" alt="Sorry.But your browser doesn't suppor images.">
-				</a>
-				<a href="https://www.facebook.com/mateusz.bartosiewicz.14">
-					<img src="../ikony/valid-html401.png" alt="Sorry.But your browser doesn't suppor images.">
+				<a href="http://validator.w3.org/check?uri=referer"><img
+    				 src="../ikony/valid-html401.png" alt="Valid HTML 4.01 Strict">
 				</a>
 				</p>
 		</div>
